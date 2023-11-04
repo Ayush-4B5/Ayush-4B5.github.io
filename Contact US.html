@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            nav ul{
+                list-style: none;
+                padding: 0;
+            }
+
+            nav ul li{
+                display: inline;
+                margin: 10px;
+            }
+
+            nav{
+                background-color: peachpuff;
+            }
+            .contact{
+                font-size: 300%;
+                color: aqua;
+                
+            }
+            .Submit {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header style="text-align: center;"><span class="contact">Contact Us</span></header>
+        <nav>
+            <ul>
+                <li><a href="E COMMERCE WEBSITE.html">Home</a></li>
+                <li><a href="About US.html">About Us</a></li>
+                <li><a href="products from.html">Products</a></li>
+                <li><a href="Contact US.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <h2>Contact US</h2>
+        <h3>Fill In Your Details. Our Team Will Get Back To You Shortly.</h3>
+        <form action="#" method="post">
+            <h2>Details</h2>
+            <label for="name"><span style="font-size: 150%;">Name:</span></labels>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email"><span style="font-size: 150%;">Email:</span></label>
+            <input type="email" id="email" name="Email" required><br>
+
+            <label for="phone"><span style="font-size: 150%;">Phone:</span></label>
+            <input type="number" id="phone" name="Phone" required><br>
+
+            <label for="TnC"><span style="color: red;">I agree Submititng my Details</span></label>
+            <input type="checkbox" id="TnC" name="TnC" required><br>
+
+            <div class="Submit">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </body>
+</html>
